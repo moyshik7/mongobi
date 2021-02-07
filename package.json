@@ -1,0 +1,28 @@
+{
+  "name": "mongobi",
+  "version": "0.0.1",
+  "description": "A mongo DB key, value wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moyshik7/mongobi.git"
+  },
+  "keywords": [
+    "mongo",
+    "database",
+    "mongodb",
+    "key",
+    "value",
+    "kry-value",
+    "wrapper"
+  ],
+  "author": "moyshik7",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moyshik7/mongobi/issues"
+  },
+  "homepage": "https://github.com/moyshik7/mongobi#readme"
+}
