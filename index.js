@@ -13,6 +13,8 @@ class DB {
                 });
 	    }else if(typeof(input) == "object"){
 		if(input.host && input.port && (input.db || input.dbName)){
+		    //Connect with data provided as an object here but ill skip this
+		    throw new Error("Invalid Input");
 		}else{
 		    throw new Error("Invalid Input");
 		}
